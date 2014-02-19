@@ -1,0 +1,26 @@
+{
+  "name": "inkwell",
+  "version": "0.0.0",
+  "description": "A diary in your terminal",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/bilalq/inkwell.git"
+  },
+  "keywords": [
+    "diary",
+    "journal",
+    "cli",
+    "notes",
+    "writing"
+  ],
+  "author": "Bilal Quadri <bilalquadri92@gmail.com> (http://bilalquadri.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bilalq/inkwell/issues"
+  },
+  "homepage": "https://github.com/bilalq/inkwell"
+}
