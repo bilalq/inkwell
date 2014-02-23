@@ -31,14 +31,15 @@
     "commander": "2.1.x",
     "cli-color": "0.2.x",
     "underscore": "1.6.x",
-    "bluebird": "1.0.x"
+    "bluebird": "1.0.x",
+    "prompt": "0.2.x"
   },
   "devDependencies": {
     "mocha": "1.17.x",
     "sinon": "1.8.x",
     "chai": "1.9.x",
     "sinon-chai": "2.5.x",
-    "chai-fs": "0.0.3",
-    "chai-as-promised": "~4.1.0"
+    "chai-as-promised": "4.1.x",
+    "chai-fs": "0.0.3"
   }
 }
