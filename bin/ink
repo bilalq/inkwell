@@ -1,0 +1,8 @@
+#!/usr/bin/env node
+// vim: ft=javascript
+
+// Print help message if no commands or options are passed
+if (process.argv.length < 3) { process.argv.push('-h') }
+
+var ink = require('../lib/ink')
+ink().parse(process.argv)
