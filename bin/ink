@@ -1,8 +1,13 @@
 #!/usr/bin/env node
-// vim: ft=javascript
-
-// Print help message if no commands or options are passed
-if (process.argv.length < 3) { process.argv.push('-h') }
 
 var ink = require('../lib/ink')
+  , monkey = require('../lib/services/monkey_patcher')
+
+// Default to write command if no arguments are given
+if (process.argv.length < 3) { process.argv.push('write') }
+
+// Monkey patch
+monkey.patch()
 ink().parse(process.argv)
+
+// vim: ft=javascript
