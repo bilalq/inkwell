@@ -32,7 +32,7 @@
     "cli-color": "0.2.x",
     "underscore": "1.6.x",
     "bluebird": "1.0.x",
-    "prompt": "0.2.x"
+    "promptly": "0.2.x"
   },
   "devDependencies": {
     "mocha": "1.17.x",
