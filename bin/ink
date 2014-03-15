@@ -3,10 +3,10 @@
 var ink = require('../lib/ink')
   , monkey = require('../lib/services/monkey_patcher')
 
-// Default to write command if no arguments are given
-if (process.argv.length < 3) { process.argv.push('write') }
+// Default to list command if no arguments are given
+if (process.argv.length < 3) { process.argv.push('list') }
 
-// Monkey patch
+// Monkey patch issues with read module
 monkey.patch()
 ink().parse(process.argv)
 
