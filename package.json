@@ -1,6 +1,6 @@
 {
   "name": "inkwell",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A diary in your terminal",
   "main": "index.js",
   "scripts": {
@@ -11,6 +11,8 @@
     "url": "git://github.com/bilalq/inkwell.git"
   },
   "keywords": [
+    "ink",
+    "inkwell",
     "diary",
     "journal",
     "cli",
@@ -24,8 +26,10 @@
   },
   "homepage": "https://github.com/bilalq/inkwell",
   "directories": {
-    "lib": "./lib",
-    "bin": "./bin"
+    "lib": "./lib"
+  },
+  "bin": {
+    "ink": "./bin/ink"
   },
   "dependencies": {
     "commander": "2.1.x",
