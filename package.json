@@ -33,7 +33,8 @@
     "underscore": "1.6.x",
     "bluebird": "1.0.x",
     "promptly": "0.2.x",
-    "inquirer": "0.4.x"
+    "inquirer": "0.4.x",
+    "grep1": "0.0.5"
   },
   "devDependencies": {
     "mocha": "1.17.x",
