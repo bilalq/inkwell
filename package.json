@@ -1,6 +1,6 @@
 {
   "name": "inkwell",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "A diary in your terminal",
   "main": "index.js",
   "scripts": {
