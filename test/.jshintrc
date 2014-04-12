@@ -1,0 +1,14 @@
+{
+  "asi": true,
+  "laxcomma": true,
+  "curly": false,
+  "undef": true,
+  "node": true,
+  "globals": {
+    "describe": false,
+    "it": false,
+    "should": false,
+    "requireService": false,
+    "requireCommand": false
+  }
+}

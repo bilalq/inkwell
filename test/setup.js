@@ -6,6 +6,7 @@ global.expect = require('chai').expect
 global.AssertionError = require('chai').AssertionError
 global.chai.use(require('sinon-chai'))
 global.chai.use(require('chai-fs'))
+global.chai.use(require('chai-as-promised'))
 
 // Polyfills
 if (!String.prototype.startsWith) {
@@ -31,4 +32,12 @@ if (!String.prototype.endsWith) {
       return lastIndex !== -1 && lastIndex === position
     }
   })
+}
+
+global.requireService = function(service) {
+  return require('../lib/services/' + service)
+}
+
+global.requireCommand = function(command) {
+  return require('../lib/commands/' + command)
 }
